@@ -35,7 +35,7 @@ jobs:
           tags: jjkung/234-deploylab-frontend:latest
       -
         name: copy file via ssh password
-        uses: applyboy/scp-action@v0.1.4
+        uses: appleboy/scp-action@v0.1.4
         with:
           host: ${{ secrets.Host_SERVER }}
           username: ${{ secrets.HOST_USER_NAME }}
